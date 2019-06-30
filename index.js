@@ -1,6 +1,6 @@
 var tcp = require('../../tcp');
 var instance_skel = require('../../instance_skel');
-var videohub = require('../videohub/videohub');
+var videohub = require('../videohub/index');
 var debug;
 var log;
 
