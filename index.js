@@ -70,7 +70,7 @@ class instance extends videohub {
 	actions(system) {
 
 		this.setupChoices();
-		var actions = super.getActions();
+		var actions = this.getActions();
 
 		// Handle some renames needed from videohub
 
@@ -358,7 +358,7 @@ class instance extends videohub {
 	 */
 	initFeedbacks() {
 		// feedbacks
-		var feedbacks = super.getFeedbacks();
+		var feedbacks = this.getFeedbacks();
 
 		// Handle some renames needed from videohub
 
