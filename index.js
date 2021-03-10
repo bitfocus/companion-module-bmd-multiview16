@@ -1,6 +1,6 @@
 var tcp = require('../../tcp');
 var instance_skel = require('../../instance_skel');
-var videohub = require('../bmd-videohub/index');
+var videohub = require('../companion-module-bmd-videohub/index');
 var debug;
 var log;
 
